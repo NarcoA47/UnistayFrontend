@@ -1,0 +1,40 @@
+.sign-in .body-content .card{
+    display: flex;
+    margin: 4rem 0rem;
+}
+.sign-in .body-content .card{
+    text-align: center;
+}
+.sign-in .body-content .card .image-container img{
+    border-radius: .5rem;
+}
+.sign-in .body-content .card .credentials {
+    width: 100%;
+    margin: 0rem 1rem;
+    height: 38rem;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.sign-in .body-content .card .credentials .container form input{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 80%;
+    height: 2.5rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+}
+.sign-in .body-content .card .credentials .container form button{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.sign-in .body-content .card .credentials .container .signin-items{
+    margin: 1rem 0rem;
+}
+.sign-in .body-content .card .credentials .container .signin-items .account a{
+    border-bottom: 1px solid black;
+}

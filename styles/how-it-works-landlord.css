@@ -1,0 +1,141 @@
+.hiw .main-body {
+   margin: 0rem 2.5rem;
+}
+.hiw .main-body .image-container {
+    width: 98%;
+}
+.hiw .main-body .image-container img{
+    width: 100%;
+}
+.hiw .main-body .image-container .details{
+    display: flex;
+    justify-content: space-between;
+}
+.hiw .main-body .image-container .details .landing-text{
+    position: relative;
+    bottom: 5rem;
+    margin: 0rem 2rem;
+    font-size: 24px;
+}
+.hiw .main-body .image-container .details .card{
+    text-align: center;
+    width: 25%;
+    margin: 0rem 2rem;
+    padding: 1rem 1rem;
+    height: 30rem;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+    background-color: white;
+    position: absolute;
+    bottom: 0rem;
+    right: 6rem;
+}
+.hiw .main-body .image-container .details .card form input{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 70%;
+    height: 2rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+}
+.hiw .main-body .image-container .details .card form select{
+    width: 70%;
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.hiw .main-body .image-container .details .card form select option {
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+.hiw .main-body .notes .end-note .note-content{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-between;
+}
+.hiw .main-body .notes .end-note .note-content .note{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+    margin: 1rem 1rem;
+}
+.hiw .main-body .why-us {
+    margin-top: 5rem;
+}
+.hiw .main-body .why-us .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.hiw .main-body .why-us .cards .card{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+    margin: 1rem 1rem;
+}
+.hiw .main-body .garantee {
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.hiw .main-body .garantee .card{
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+    margin: 1rem 1rem;
+    width: 70%;
+    height: 15rem;
+    padding: 4rem 4rem;
+}
+.hiw .main-body .garantee .card .left{
+    width: 50%;
+    position: relative;
+    top: 6rem;
+}
+.hiw .main-body .garantee .card .right{
+    width: 50%;
+}
+.hiw .main-body .garantee .card .right .description{
+    width: 100%;
+    font-size: 24px;
+}
+
+.hiw .main-body .faq{
+    margin: 8rem 0rem;
+    width: 100%;
+}
+.hiw .main-body .faq .questions{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-between;
+}
+.hiw .main-body .faq .questions .question{
+    width: 80%;
+    height: 1.5rem;
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+}
+.hiw .main-body hr{
+    margin: 4rem 0rem;
+}

@@ -1,0 +1,106 @@
+.ambassadors .body-content .header .image-container {
+    width: 98%;
+}
+.ambassadors .body-content .header .image-container img{
+    width: 95%;
+    position: relative;
+    left: 2.5rem;
+}
+.ambassadors .body-content .header .image-container .title{
+    position: relative;
+    left: 3rem;
+    bottom: 15rem;
+}
+.ambassadors .body-content .header .image-container .title h2{
+    font-size: 28px;
+}
+.ambassadors .body-content .header .image-container .title button{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.ambassadors .body-content .content .toolbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2.5rem;
+    position: relative;
+    bottom: 10rem;
+}
+.ambassadors .body-content .content .toolbar .lead-text{
+    text-align: justify;
+    margin: 0rem 1.5rem;
+}
+
+.ambassadors .body-content .content .section-one .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0rem;
+    position: relative;
+}
+
+.ambassadors .body-content .content .section-one .container .right .tab-master .section-1{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    position: relative;
+}
+.ambassadors .body-content .content .section-two .image-container{
+    display: flex;
+    justify-content: space-between;
+}
+.ambassadors .body-content .content .section-two .image-container .minor{
+    display: flex;
+    margin: 0rem 1rem;
+}
+.ambassadors .body-content .content .section-two .image-container .minor img{
+   width: 95%;
+   margin: 0rem 0rem;
+}
+.ambassadors .body-content .content .section-three {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 2rem;
+}
+.ambassadors .body-content .content .section-three .left{
+   position: relative;
+   top: 10rem;
+}
+.ambassadors .body-content .content .section-three .right{
+    display: grid;
+    grid-template-columns: 270px 270px;
+    position: relative;
+}
+.ambassadors .body-content .content .section-four{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+.ambassadors .body-content .content .section-five .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+    background-color: rgb(177, 177, 177);
+    padding: 0rem 1rem;
+    height: 10rem;
+    border-radius: .5rem;
+}
+.ambassadors .body-content .content .section-five .banner .right button{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.ambassadors .body-content .content .section-five .socials{
+    display: flex;
+    margin: 0rem 2.5rem;
+}
+.ambassadors .body-content .content .section-five .socials span{
+    margin: 0rem .5rem;
+}
+.ambassadors .body-content .content .section-five hr{
+    margin: 5rem 1rem;
+}

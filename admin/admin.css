@@ -1,0 +1,77 @@
+.listing-container {
+    margin: 0rem 2rem;
+}
+.listing-container .container{
+    width: 40%;
+    margin: 1rem 2rem;
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+.listing-container .container form{
+    margin: 2rem 2rem;
+}
+.listing-container .container form .appartment-name input{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 80%;
+    height: 2.5rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+}
+.listing-container .container form .filters span{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 80%;
+    height: 2.5rem;
+    margin: 1rem 0rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+}
+.listing-container .container form .prices .card{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 50%;
+    height: 1rem;
+    margin: 1rem 0rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+.listing-container .container form .prices .add-item span{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 50%;
+    height: 1rem;
+    margin: 1rem 0rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+.listing-container .container form .image-container .main-image img{
+    width: 10%;
+}
+.listing-container .container form .image-container .side-image img{
+    width: 10%;
+}
+.listing-container .container form .image-container .other-images .interior .card img{
+    width: 10%;
+}
+.listing-container .container form .image-container .other-images .exterior .card img{
+    width: 10%;
+}
+.listing-container .container form .date .set-date{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 25%;
+    height: 1rem;
+    margin: 1rem 0rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+    text-align: center;
+}

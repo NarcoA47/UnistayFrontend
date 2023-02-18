@@ -1,0 +1,14 @@
+.create-listing-landlord {
+    display: flex;
+    justify-content: center;
+}
+.create-listing-landlord .create-listing{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 20%;
+    height: 4rem;
+    padding: 1rem 0rem;
+    border-radius: .5rem;
+    text-align: center;
+}

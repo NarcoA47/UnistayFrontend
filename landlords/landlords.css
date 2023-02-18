@@ -1,0 +1,40 @@
+.landlords {
+    margin: 0rem 2rem;
+}
+.landlords .container .card {
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 20%;
+    height: 9rem;
+    margin: 1rem 1rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+}
+.landlords .container h2 {
+    margin: 2rem 1rem;
+}
+.landlords .container .card .content .title{
+    margin: .5rem 0rem;
+}
+.landlords .container .card .content .Room-num{
+    margin: 1rem 0rem;
+}
+.landlords .container .card .content .price{
+    margin: 1rem 0rem;
+}
+.landlords .container .card .content .buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+}
+.landlords .container .card .content .buttons button{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 25%;
+    height: 2rem;
+    margin: 0rem .2rem;
+    padding: .5rem .5rem;
+    border-radius: .5rem;
+}

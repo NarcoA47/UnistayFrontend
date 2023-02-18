@@ -1,0 +1,22 @@
+.cancellation .body-content .header .image-container {
+    width: 100%;
+}
+.cancellation .body-content .header .image-container img{
+    width: 95%;
+    position: relative;
+    left: 2.5rem;
+}
+.cancellation .body-content .body-conatiner {
+    margin: 2rem 4rem;
+}
+.cancellation .body-content .body-conatiner .container{
+    display: flex;
+    justify-content: space-between;
+}
+.cancellation .body-content .body-conatiner .container .card {
+    text-align: center;
+
+}
+.cancellation .body-content .body-conatiner .container .card .image-container img {
+    width: 90%;
+}

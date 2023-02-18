@@ -1,0 +1,79 @@
+.listing .container{
+    display: flex;
+    overflow: hidden;
+ }
+.listing .content {
+    width: 50%;
+    margin: 0rem 2rem;
+    position: relative;
+    right: 2.5rem;
+ }
+.listing .content .filters{
+    margin: 0rem 1rem;
+ }
+.listing .content .filters ul{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+    width: 100%;
+ }
+ .listing .content .filters ul li{
+    margin: 0px .2rem;
+    width: 20%;
+ }
+ .listing .content .filters ul li a{
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+ }
+ .listing .content hr{
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+ }
+ .listing .content .listings{
+    margin-left: 3.5rem;
+ }
+ .listing .content .listings .heading{
+    display: flex;
+    justify-content: space-between;
+ }
+ .listing .content .listings .heading .sort .drop-down{
+    display: none;
+ }
+ 
+ .listing .content .listings .item .container .card{
+    display: flex;
+    margin: 2rem 0rem;
+ }
+ .listing .content .listings .item .container .card .image-container{
+    width: 50%;
+ }
+ .listing .content .listings .item .container .card .image-container img{
+    width: 100%;
+ }
+ .listing .content .listings .item .container .card .detail{
+    border-radius: 0rem .5rem .5rem 0rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.178);
+    height: 14.45rem;
+ }
+ .listing .content .listings .item .container .card .detail .header{
+   display: flex;
+   justify-content: space-between;
+ }
+ .listing .content .listings .item .container .card .detail .detail-sub .category{
+   margin: 1rem 0rem;
+ }
+ .listing .content .listings .item .container .card .detail .detail-sub .room-availability {
+    display: flex;
+ }
+ .listing .content .listings .item .container .card .detail .detail-sub .room-availability .vl{
+    border-left: 1px solid black;
+    height: 2rem;
+    margin: 0rem 1rem;
+ }
+ .listing .content .listings .item .container .card .detail .detail-sub .bottom-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+ }

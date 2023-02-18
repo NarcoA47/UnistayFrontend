@@ -1,0 +1,184 @@
+nav .header ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav .header ul .title{
+   font-size: 26px;
+}
+nav .header ul li .button-content{ 
+    width: 100%;
+}
+nav .header ul li .button-content form{ 
+    display: flex;
+    width: 100%;
+}
+nav .header ul li .button-content form input{ 
+    background: none;
+    outline-style: none;
+    border-radius: .5rem;
+    width: 100%;
+    height: 2rem;
+    margin: 0rem .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+nav .header ul li .button-content button{ 
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: .5rem .5rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+}
+nav .header ul .user {
+    display: flex;
+    justify-content: space-between;
+}
+nav .header ul .user .content{
+    display: flex;
+    justify-content: space-between;
+}
+nav .header ul .user .content .vl{
+   border-right: 2px solid black;
+   height: 1rem;
+}
+nav .header ul .user .content a{
+  margin: 0rem 1rem;
+}
+nav .header ul .user .dashboard{
+    display:  none;
+}
+nav .header ul .user .dashboard .drop-down{
+    display:  block;
+}
+
+nav .admin-nav .tools{
+    display: flex;
+}
+nav .admin-nav .tools .tab{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 20%;
+    height: 2rem;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer .container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    justify-content: center;
+}
+footer .container .line .content .body{
+    display: block;
+}
+footer .container .line .content .body span a{
+    margin: 1rem 0rem;
+}
+footer .copywrite{
+    text-align: center;
+    margin:1rem 0rem;
+}
+
+@media screen and (max-width: 1020px) {
+    nav .header ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .header ul .title{
+       font-size: 26px;
+       position: relative;
+       right: 4rem;
+    }
+    nav .header ul li .button-content{ 
+        display: none;
+        width: 100%;
+    }
+    nav .header ul li .button-content form{ 
+        display: flex;
+        width: 100%;
+    }
+    nav .header ul li .button-content form input{ 
+        background: none;
+        outline-style: none;
+        border-radius: .5rem;
+        width: 100%;
+        height: 2rem;
+        margin: 0rem .5rem;
+        border: 1px solid rgba(0, 0, 0, 0.219);
+    }
+    nav .header ul li .button-content button{ 
+        outline: none;
+        border: none;
+        background: none;
+        border-radius: .5rem;
+        padding: .5rem .5rem;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+    }
+    nav .header ul .user {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        left: 2rem;
+    }
+    nav .header ul .user .content{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .header ul .user .content .vl{
+       border-right: 2px solid black;
+       height: 1rem;
+    }
+    nav .header ul .user .content a{
+      margin: 0rem 1rem;
+    }
+    nav .header ul .user .dashboard{
+        display:  none;
+    }
+    nav .header ul .user .dashboard .drop-down{
+        display:  block;
+    }
+    
+    nav .admin-nav .tools{
+        display: flex;
+    }
+    nav .admin-nav .tools .tab{
+        background: none;
+        outline-style: none;
+        border: 1px solid rgba(0, 0, 0, 0.219);
+        width: 20%;
+        height: 2rem;
+        margin: 1rem 1rem;
+        padding: 1rem 0rem;
+        border-radius: .5rem;
+    }
+    nav .admin-nav .tools .tab .create-listing{
+        margin: 0rem 2rem;
+        font-size: 20px;
+    }
+    nav .admin-nav .tools .tab .trusted{
+        margin: 0rem 2rem;
+        font-size: 22px;
+    }
+    nav .admin-nav .tools .tab .ratings{
+        margin: 0rem 2rem;
+        font-size: 22px;
+    }
+    footer .container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        justify-content: center;
+    }
+    footer .container .line .content .body{
+        display: block;
+    }
+    footer .container .line .content .body span a{
+        margin: 1rem 0rem;
+    }
+    footer .copywrite{
+        text-align: center;
+        margin:1rem 0rem;
+    }
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unistay - Manager</title>
+
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="../styles/globle.css">
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <ul>
+                <li>
+                    <div class="title">
+                        <b><a href="index.html">Unistay</a></b>
+                    </div>
+                </li>
+                <li>
+                    <div class="button-content">
+                        <form action="" method="post">
+                            <input type="text">
+                            <button>Search</button>
+                        </form>
+                    </div>
+                </li>
+                <div class="user">
+                    <div class="content">
+                        <a href="./pages/login.html">Sign in</a>
+                        <div class="vl"></div>
+                        <a href="./pages/signin.html">Sign up</a>
+                    </div>
+                    <div class="dashboard">
+                        <a href="">Dashboard</a>
+                        <div class="drop-down">
+                            <div class="item"><a href="">item 1</a></div>
+                            <div class="item"><a href="">item 2</a></div>
+                            <div class="item"><a href="">item 3</a></div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <hr>
+        <div class="admin-nav">
+            <div class="tools">
+                <div class="tab">
+                    <div class="create-listing">
+                        <span>Create Listing</span>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="trusted">
+                        <span><a href="./trusted.html">Trusted LandLords</a></span>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="ratings">
+                        <span>Ratings</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="listing-container">
+        <div class="container">
+            <form action="" method="post">
+                <h1>Create Listingg</h1>
+                <div class="appartment-name">
+                    <label for="title">Enter Appartment Name</label>
+                    <br>
+                    <input type="text" name="title" placeholder="Appartment Title" id="id_title">
+                </div>
+                <div class="filters">
+                    <h2>Appartment Elements</h2>
+                    <span name="wifi" id="id_wifi">Wifi</span>
+                    <span name="dstv" id="id_dstv">Dstv</span>
+                    <span name="furnished" id="id_furnished">Furnished</span>
+                    <span name="balcony" id="id_balcony">Balcony</span>
+                    <span name="ac" id="id_ac">A/c</span>
+                </div>
+                <div class="prices">
+                    <h2>Enter Prices</h2>
+                    <div class="card">
+                        <span>K</span><span name="price" id="id_price"> 900</span><span> - </span>
+                        <span>Single Shared</span>
+                    </div>
+                    <div class="add-item">
+                        <span>Add Price</span>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <h2>Insert Images</h2>
+                </div>
+                <div class="image-container">
+                    <h4>Main image</h4>
+                    <div class="main-image">
+                        <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                    </div>
+                    <div class="side-image">
+                        <h4>Side Images</h4>
+                        <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                        <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                        <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                        <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                    </div>
+                    <div class="other-images">
+                        <div class="interior">
+                            <h4>Interior Images</h4>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="exterior">
+                            <h4>Exterior Images</h4>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                            <div class="card">
+                                <img src="./assets/Placeholder_view_vector.svg.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="date">
+                    <h2>Day Of Availability</h2>
+                    <span>01</span> | <span> jan </span> | <span>2023</span>
+                    <div class="set-date">
+                        <span>Set Date</span>
+                    </div>
+                </div>
+                <div class="landlord-details">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="landlord" id="id_landlord">
+                </div>
+                <button>Add Listing</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

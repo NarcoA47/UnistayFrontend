@@ -1,0 +1,49 @@
+
+.contact-us .body-container .header .title {
+    width: 100%;
+}
+.contact-us .body-container .header .title img{
+    width: 95%;
+    position: relative;
+    left: 2.5rem;
+    border-radius: .5rem;
+}
+.contact-us .body-container .content{
+    width: 50%;
+    margin: 0rem 2.5rem;
+    height: 38rem;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}
+.contact-us .body-container .content .physical{
+    margin: 2rem 1rem;
+}
+.contact-us .body-container .content .physical .title h2{
+    margin-top: 2rem;
+}
+.contact-us .body-container .content form input{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 80%;
+    height: 2.5rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+}
+.contact-us .body-container .content form textarea{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 80%;
+    height: 12rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+}
+.contact-us .body-container .content form button{
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+}

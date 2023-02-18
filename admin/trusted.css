@@ -1,0 +1,35 @@
+.trusted-landlords .add-item{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+.trusted-landlords .add-item button{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 20%;
+    height: 4rem;
+    margin: 1rem 1rem;
+    padding: 1rem 0rem;
+    border-radius: .5rem;
+}
+
+.trusted-landlords .container .places-container .places .card{
+    background: none;
+    outline-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    width: 20%;
+    height: 6rem;
+    margin: 1rem 1rem;
+    padding: 1rem 0rem;
+    border-radius: .5rem;
+}
+.trusted-landlords .container .places-container .places .card .content{
+    display: flex;
+    margin: 2rem 0.5rem;
+}
+.trusted-landlords .container .places-container .places .card .content .icon{
+    position: relative;
+    bottom: 2rem;
+    right: 0rem;
+}
